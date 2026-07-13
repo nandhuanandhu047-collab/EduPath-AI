@@ -1,0 +1,54 @@
+{
+  "name": "EduPath AI",
+  "version": "1.0.0",
+  "description": "AI-powered career guidance system built using IBM watsonx.ai Agent Builder.",
+  "developer": {
+    "name": "Anandhu Surendran"
+  },
+  "platform": {
+    "provider": "IBM",
+    "service": "watsonx.ai Agent Builder",
+    "framework": "LangGraph",
+    "architecture": "ReAct"
+  },
+  "foundationModel": {
+    "name": "Meta Llama 3.3 70B Instruct"
+  },
+  "tools": [
+    {
+      "name": "Google Search",
+      "purpose": "Retrieve real-time career information and learning resources"
+    }
+  ],
+  "features": [
+    "Personalized Career Guidance",
+    "Skill Gap Analysis",
+    "Learning Roadmap Generation",
+    "Certification Recommendations",
+    "Portfolio Project Suggestions",
+    "Resume Improvement Tips",
+    "Interview Preparation"
+  ],
+  "workflow": [
+    "Student Query",
+    "EduPath AI Agent",
+    "Google Search (Optional)",
+    "Foundation Model",
+    "ReAct Reasoning",
+    "Career Guidance Generation",
+    "Learning Roadmap",
+    "Final AI Response"
+  ],
+  "technologies": [
+    "IBM watsonx.ai Agent Builder",
+    "LangGraph",
+    "ReAct Architecture",
+    "Meta Llama 3.3 70B Instruct",
+    "Google Search Tool"
+  ],
+  "deployment": {
+    "status": "Prototype",
+    "environment": "IBM watsonx.ai"
+  },
+  "license": "MIT"
+}
